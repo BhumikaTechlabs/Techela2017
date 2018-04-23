@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 638px;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	#overflow-x: scroll;
+}
+
+.thumbs {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 0;
+}
+
+.background-layer {
+	background : url(../images/team-background.jpg) ; background-repeat: none;
+	height: 100%;
+	color: #fff;
+	width:  2500px;
+
+}
+.team {
+	position: relative;
+}
+
+.team a:hover{
+	cursor: pointer;
+}
+
+ul {
+	float: left;
+	margin-left: 104px;
+	margin-right: 104px;
+	text-align: center;
+}
+
+.logo {
+  font-family: pirulen;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+
+}
+
+.col-1 {
+	margin-top : 104px;
+}
+.col-2 {
+	margin-top : 36px;
+}
+.col-3 {
+	margin-top : 54px;
+}
+.col-4 {
+	margin-top : 36px;
+}
+.col-5 {
+	margin-top : 104px;
+}
+
+.img-circle {
+	width: 148px;
+	height: 148px;
+	border : 4px solid #fff;
+	margin: 24px;
+}
+
+.team img:hover {
+	width: 160px;
+}
+
+.team .img-circle:hover {
+	border : none;
+	width: 152px;
+	height: 152px;
+	border-radius: 8%;
+	transition: 0.4s ease;
+}
+
+.modal {
+	top : 36px;
+	font-family: pirulen;
+  	text-transform: uppercase;
+  	letter-spacing: 0.2em;
+
+}
+
+.modal-header {
+	border: none;
+}
+.modal-lg {
+    width: 1076px;
+}    
+.modal .modal-content {
+	color: #fff;
+	background-color: #000000;
+	text-align: center;
+}
+
+.modal-title {
+	font-size: 26px;
+}
+.modal .modal-footer {
+	border-top: none;
+	font-family: 'Creepster', cursive;
+	letter-transform : uppercase;
+}
+
+.modal .modal-footer button {
+	float: left;
+	color: #fff;
+	background: transparent;
+	border: none;
+	font-size: 22px;
+	border-bottom: 2px solid #5620B4;
+}
+
+.modal .modal-footer button:hover {
+	border-bottom: 2px solid #fff;
+	color: #5620B4;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 128px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  color : #fff;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: transparent;
+  font-family: pirulen;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+
+}
