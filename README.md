@@ -1,2 +1,2 @@
-# techela2k17
-Currently hosted at www.techela.in
+# Techela2k17
+Hosted at https://bhumikasaini.github.io/Techela-2017/
